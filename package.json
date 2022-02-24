@@ -1,0 +1,28 @@
+{
+    "name": "project_name",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build && ntl deploy --prod",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-regular-svg-icons": "^5.15.4",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/vue-fontawesome": "^3.0.0-5",
+        "@vueuse/core": "^7.6.2",
+        "normalize.css": "^8.0.1",
+        "vue": "^3.2.25",
+        "vue-router": "^4.0.12"
+    },
+    "devDependencies": {
+        "@types/svgo": "^2.6.2",
+        "@vitejs/plugin-vue": "^2.0.0",
+        "animejs": "^3.2.1",
+        "typescript": "^4.4.4",
+        "vite": "^2.7.2",
+        "vite-svg-loader": "^3.1.2",
+        "vue-tsc": "^0.29.8"
+    }
+}
