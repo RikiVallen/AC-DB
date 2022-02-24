@@ -17,7 +17,10 @@ const route = createRouter({
     routes,
 })
 
-createApp(App)
+const app = createApp(App)
+
+app
     .use(route)
-    //.component("font-awesome-icon", FontAwesomeIcon)
     .mount("#app")
+    //.component("font-awesome-icon", FontAwesomeIcon)
+
